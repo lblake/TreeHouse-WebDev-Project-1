@@ -54,10 +54,28 @@ a:hover {
 .nav a:hover {
   color: white;
 }
+/* Added class to header for Experience page */
+.experience {
+  text-align: center;
+  background: url('/images/new_experience_background.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  min-height: 470px;
+}
+/* Added class to header for Contact page */
+.contact {
+  text-align: center;
+  background: url('/images/new_contact_background.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  min-height: 470px;
+}
 
 header {
   text-align: center;
-  background: url('/images/portland.jpg') no-repeat top center;
+  background: url('/images/new_background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +92,7 @@ header .profile-image {
   transition: all 0.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
 }
 .tag {
   background-color: #efefef;
@@ -99,7 +117,7 @@ header .profile-image:hover {
   transition: all 0.5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {
@@ -151,14 +169,12 @@ a.social {
   opacity: 0.4;
   transition: all 0.5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(/images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(/images/github.svg);
 }
 a.social:hover {
   opacity: 1;
