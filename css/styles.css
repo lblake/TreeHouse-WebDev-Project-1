@@ -54,7 +54,7 @@ a:hover {
 .nav a:hover {
   color: white;
 }
-/* Added class to header for Experience page */
+/* Added  CSS for class header for Experience page */
 .experience {
   text-align: center;
   background: url('/images/new_experience_background.jpg') no-repeat top center;
@@ -63,7 +63,8 @@ a:hover {
   padding-top: 60px;
   min-height: 470px;
 }
-/* Added class to header for Contact page */
+
+/* Added  CSS for class header for Contact page */
 .contact {
   text-align: center;
   background: url('/images/new_contact_background.jpg') no-repeat top center;
@@ -106,7 +107,8 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+/* CSS updated in line with exceeds expection instructions div naming*/
+.section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -116,7 +118,8 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all 0.5s;
 }
-.card:hover {
+/* CSS updated in line with exceeds expection instructions div naming*/
+.section:hover {
   border-color: #0399ff;
 }
 
