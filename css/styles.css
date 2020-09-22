@@ -57,7 +57,8 @@ a:hover {
 /* Added  CSS for class header for Experience page */
 .experience {
   text-align: center;
-  background: url('/images/new_experience_background.jpg') no-repeat top center;
+  background: url('../images/new_experience_background.jpg') no-repeat top
+    center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,7 +68,7 @@ a:hover {
 /* Added  CSS for class header for Contact page */
 .contact {
   text-align: center;
-  background: url('/images/new_contact_background.jpg') no-repeat top center;
+  background: url('../images/new_contact_background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,7 +77,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('/images/new_background.jpg') no-repeat top center;
+  background: url('../images/new_background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -174,10 +175,10 @@ a.social {
 }
 
 a.linkedin {
-  background-image: url(/images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(/images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
