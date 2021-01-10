@@ -6,4 +6,4 @@ Description: Used HTML and CSS to build a portfolio page based on a mochup image
 Why: This Project was created to gain more experience in HTML and CSS
 Skills Used: HTML & CSS
 
-Created by lblake
+https://lblake.github.io/TreeHouse-WebDev-Project-1/
